@@ -1,0 +1,70 @@
+// layout for desktop 
+#container {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 30% 70%;
+	#sidebar {
+		display: flex;
+		flex-direction: column;
+		#sidenav {
+			display: flex;
+			align-items: center;
+			height: 100px;
+			background-color: #1a1a2e;
+			#homebutton {
+				padding: 10px;
+				text-align: center;
+				color: #e94560;
+				font-size: 50px;
+			}
+			#searchbar {
+				flex-grow: 1;
+				display: flex;
+				flex-direction: row-reverse;
+				align-self: center;
+				input#search {
+				
+					margin: 20px;
+					height: 35px;
+					padding: 6px;
+					background-color: #16213e;
+					border-radius: 0px;
+					font-family: Georgia, serif;
+					font-size: 21px;
+					border: none;
+					color: #e94560;
+				}
+			}
+		}
+		#sidecontent {
+			flex-grow: 1;
+
+			background-color: #16213e;
+			display: flex;
+			flex-direction: column;
+
+			.weatherimg {
+				justify-content: center;
+				margin: 13%;
+			}
+
+			.weatherinfo {
+				margin-left: 50px;
+				color: #e94560;
+			}
+		}
+	}
+	#content {
+		background-color: #0f3460;
+		display: flex;
+		align-items: center;
+		div {
+			h1 {
+				font-size: 100px;
+				text-align: center;
+			}
+			
+		}
+	}
+}
