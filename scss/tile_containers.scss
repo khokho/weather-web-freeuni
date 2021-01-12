@@ -1,0 +1,32 @@
+@import 'tile.scss';
+@import 'misc.scss';
+
+.upcoming-weathers {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	@include notphone {
+		justify-content: space-between;
+	}
+	flex-wrap: wrap;
+}
+
+.info-tiles-container {
+	width: 100%;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: auto auto;
+	flex-wrap: wrap;
+	justify-content: stretch;	
+}
+
+@media only screen and (max-width: 600px) {
+	.info-tiles-container {
+		width: 100%;
+		display: grid;
+		grid-gap: 30px;
+		grid-template-columns: auto;
+		flex-wrap: wrap;
+		justify-content: stretch;	
+	}
+}

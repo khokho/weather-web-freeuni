@@ -5,6 +5,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/weather.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
@@ -23,20 +26,34 @@
 				</div>
 			</nav>
 			<div id="sidecontent">
-				<div class="weatherimg">
-					<img src="https://www.metaweather.com/static/img/weather/s.svg"/>
+				<div>
+					<img src="https://www.metaweather.com/static/img/weather/c.svg"/>
 				</div>
-				<div class="weatherinfo">
-					<h1>Tbilisi</h1>
+				<div>
 					<h2>18C</h2>
 				</div>
-				
+				<div>
+					<p>Shower</p>
+				</div>
+				<div>
+					<p>Today . Fri, 5 Jan</p>
+					<p>Helsinki</p>
+				</div>
 			</div>
 		</div>
 		<div id="content">
 			<!-- <div><h1>KIDE SHEMAWUXE TU SHEIDZLEBA</h1></div> -->
 		</div>
 	</div>
+
+	<!-- Load React. -->
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	
+	<script src="weekweather.js"></script>  
+	<script src="infotiles.js"></script>  
+	<script src="maincontent.js"></script>  
 
 </body>
 </html>
