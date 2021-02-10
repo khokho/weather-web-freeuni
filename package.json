@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "prod": "webpack --mode production",
-    "start": "webpack serve --open 'Firefox' --mode development",
-    "cors-serve": "node cors-anywhere.js"
+    "start": "webpack serve --open 'Firefox' --mode development"
   },
   "repository": {
     "type": "git",
