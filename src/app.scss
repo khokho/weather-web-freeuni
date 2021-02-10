@@ -1,0 +1,17 @@
+@use 'common/size';
+
+.app {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	height: 70vh;
+	@include size.notphone {
+		display: grid;
+		height: 100vh;
+		grid-template-columns: 30% 70%;	
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+}

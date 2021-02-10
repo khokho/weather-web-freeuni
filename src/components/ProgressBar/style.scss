@@ -1,0 +1,45 @@
+.container {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	align-items: center;
+	grid-template-rows: auto auto auto;	
+}
+
+.numbers p:nth-child(1) {
+	justify-self: start;
+}
+.numbers p:nth-child(2) {
+	justify-self: center;
+}
+.numbers p:nth-child(3) {
+	justify-self: end;
+}
+
+.numbers {
+	display: grid;
+	height: auto;
+	grid-template-columns: auto auto auto;	
+}
+
+
+.yellow {
+	background-color: #ffec65;
+}
+
+.white {
+	background-color: $white;
+}
+
+.pb {
+	display: grid;
+	border-radius: 5px;
+	overflow: hidden;
+	
+	height: 10px;
+}
+
+
+.sign  {
+	justify-self: end;
+}

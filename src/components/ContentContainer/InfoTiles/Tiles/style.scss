@@ -1,0 +1,36 @@
+@use "common/tile";
+
+.windStatus {
+	@include tile.tile;
+	height: 12rem;
+	strong {
+		font-weight: $font-weight-bold;	
+		font-size: 3.5rem;
+	}
+	grid-template-rows: 20% 50% 30%;
+}
+
+
+.humidity {
+	@include tile.tile;
+	height: 12rem;
+	& > .tileSubContent {
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	}
+	strong {
+		font-weight: $font-weight-bold;	
+		font-size: 3.5rem;
+	}
+	grid-template-rows: 20% 40% 40%;
+}
+
+.genericInfo {
+	@include tile.tile;
+	height: 9rem;
+	strong {
+		font-weight: $font-weight-bold;	
+		font-size: 3.5rem;
+	}
+	grid-template-rows: 30% 70%;
+}

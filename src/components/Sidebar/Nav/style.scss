@@ -1,0 +1,38 @@
+.sidenav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	background-color: #1a1a2e;
+	.homebutton {
+		cursor: pointer;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		color: #e94560;
+	}
+	.searchbar {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: row-reverse;
+		align-self: center;
+		box-sizing: border-box;
+		padding: 20px;
+		input {
+
+		    box-sizing: border-box;
+		    width: 100%;
+		    height: 100%;
+			background-color: #B7D3F2;
+			border-radius: 1px;
+		    padding: 12px;
+	    	font-size: 1rem;
+			border: none;
+			color: $black;
+			&:focus{
+		    	outline: none; /*to remove the focus outline in chrome */
+			}
+		}
+
+	}
+}

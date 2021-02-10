@@ -1,0 +1,13 @@
+@use 'common/size';
+
+.infoTiles {
+	width: 100%;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: auto auto;
+	flex-wrap: wrap;
+	justify-content: stretch;	
+	@include size.phone {
+		grid-template-columns: auto;
+	}
+}

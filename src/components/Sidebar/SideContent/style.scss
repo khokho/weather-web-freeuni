@@ -1,0 +1,44 @@
+.sidecontent {
+	flex-grow: 1;
+	
+	line-height: 0;
+	background-color: #1a1a2e;
+	display: grid;
+	grid-template-rows: 40% 25% 20% 15%;
+
+	img {
+		box-sizing: border-box;
+		padding: 5%;
+		height: 100%;  
+		object-fit: contain;
+		width: 100%;
+		max-height: 100%;
+	}
+
+	& > div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+
+
+
+}
+
+.temp {
+	font-size: 3rem;	
+	font-weight: 100;
+	strong {
+		font-size: 5rem;	
+	}
+}
+
+.weatherDesc {
+	font-size: 2rem;	
+}
+
+.extra {
+	line-height: 2rem;		
+}

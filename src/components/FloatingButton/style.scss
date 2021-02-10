@@ -1,0 +1,25 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#1B5299;
+	color: $white;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	cursor: pointer;
+	span {
+		margin-top:22px;
+	}
+	transition: 0.25s;
+	&:hover {
+		background-color:#694D75;
+	}
+	&:active {
+		background-color:#331832;
+	}
+
+}
+

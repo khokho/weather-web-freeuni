@@ -1,5 +1,6 @@
 *.map
 .DS_Store
 node_modules
+dist
 package.json
 package-lock.json

@@ -1,0 +1,29 @@
+// Colors
+$white:                   #fff !default;
+$gray: #a09fb1 !default;
+$black:                   #000 !default;
+$main-dark:			      #100e1d !default;
+$main-mid:                #1e213a !default;
+$main-light:		      #6e707a !default;
+
+// Typography
+$font-family-sans-serif:  'Raleway', sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          1rem !default; // Assumes the browser default, typically `16px`
+
+$line-height-base:        1.5 !default;
+
+$font-weight-light:       100 !default;
+$font-weight-normal:      400 !default;
+$font-weight-strong:      700 !default;
+$font-weight-bold:        900 !default;
+
+$font-weight-base:        $font-weight-normal !default;
+
+// Main Styles
+$body-bg:                 $main-dark !default;
+$text-color:              $white !default;
+$secondary-text-color:    $gray !default;
