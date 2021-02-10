@@ -1,0 +1,43 @@
+{
+  "name": "weather-web-freeuni",
+  "version": "1.0.0",
+  "description": "ვებ-პროგრამირების საგნის ფინალური პროექტი.",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve --open 'Firefox' --mode development",
+    "cors-serve": "node cors-anywhere.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khokho/weather-web-freeuni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khokho/weather-web-freeuni/issues"
+  },
+  "homepage": "https://github.com/khokho/weather-web-freeuni#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "cors-anywhere": "^0.4.3",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
