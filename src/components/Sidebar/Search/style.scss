@@ -45,6 +45,7 @@
 		}
 		&:active {
 			border-color: $white;	
+			background-color: $main-light;
 			span {
 				display: inline;
 			}
