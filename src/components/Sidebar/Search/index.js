@@ -54,7 +54,7 @@ class Search extends React.Component {
 	}
 	
 	fetchData(){
-		const path = 'http://localhost:9000/https://www.metaweather.com/api/location/search/'
+		const path = 'https://khokhoproxy.herokuapp.com/https://www.metaweather.com/api/location/search/'
 		console.log('---->', this.state.value)
 		fetch(`${path}?query=${this.state.value}`)
 			.then(response => response.json())

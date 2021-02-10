@@ -24,7 +24,7 @@ class App extends React.Component {
 
 
 	fetchData(woeid){
-		const path = 'http://localhost:9000/https://www.metaweather.com/api/location/'
+		const path = 'https://khokhoproxy.herokuapp.com/https://www.metaweather.com/api/location/'
 		fetch(`${path}${woeid}/`)
 			.then(response => response.json())
 			.then(json => {
