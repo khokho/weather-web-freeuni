@@ -60,7 +60,7 @@ class App extends React.Component {
     }
 
 	render() {
-		if(!this.state.data) return null;
+		if(!this.state.data) return <h1>api-ს სერვერი იძინებს ხოლმე და პირველ ჩართვაზე შეიძლება გაჭედოს!</h1>;
 		return (
 			<div className={styles.app}>
 				<Sidebar 
